@@ -1,0 +1,76 @@
+
+/* ============ NAV ============*/
+
+.encabezado { 
+    border-bottom: 4px solid #DAE5DE;    
+}
+
+.cofLogo {
+    width: 10rem;
+    border-radius: 0.5rem;
+}
+
+.fuentesNav {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+/* ============ FOOTER ============*/
+
+.footerText {
+    font-weight: bold;
+}
+
+.imgFooter {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+/* ============ INDEX ============*/
+
+.backgroundMain {
+    background-color: aliceblue;
+}
+
+.textoContainer {
+    padding-top: 4rem;
+}
+
+.imgIndex1 {
+    width: 50vw;
+    border-radius: 10%;
+    
+}
+
+.tituloIndex {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.parrafoIndex { 
+    color: rgb(104, 81, 37);
+}
+
+/* ============ VESION MOBILE ============*/
+
+@media (min-width:100px) and (max-width:360px) {
+    .textoContainer {
+        padding-top: 0px;
+    }
+
+    .tituloIndex {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+
+    .imgIndex1 {
+        width: 70vw;
+        border-radius: 10%;
+    }
+}
+
+
