@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ============ FONT ============*/
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 /* ============ NAV ============*/
 
@@ -6,7 +14,7 @@
 }
 
 .cofLogo {
-    width: 10rem;
+    width: 7rem;
     border-radius: 0.5rem;
 }
 
@@ -22,28 +30,24 @@
     font-weight: bold;
 }
 
-.imgFooter {
-    width: 1.2rem;
-    height: 1.2rem;
-}
-
 /* ============ INDEX ============*/
 
-.backgroundMain {
-    background-color: aliceblue;
-}
 
-.textoContainer {
-    padding-top: 4rem;
-}
+/* .backgroundMain {
+    background: radial-gradient(circle, rgba(200,201,205,1) 0%, rgba(71,131,66,1) 100%);    
+} */
+
 
 .imgIndex1 {
     width: 50vw;
-    border-radius: 10%;
+    border-radius: 1rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
     
 }
 
 .tituloIndex {
+    padding-top: 3rem;
     font-size: 3rem;
     font-weight: bold;
     
@@ -53,9 +57,20 @@
     color: rgb(104, 81, 37);
 }
 
+/* ============ INDEX - VESION MOBILE ============*/
+
+@media (min-width:100px) and (max-width:365px) {
+    .imgIndex1 {
+        width: 60vw;
+        border-radius: 10%;
+        margin-left: 2rem;
+        margin-top: 1em;       
+    }   
+}
+
 /* ============ VESION MOBILE ============*/
 
-@media (min-width:100px) and (max-width:360px) {
+@media (min-width:100px) and (max-width:365px) {
     .textoContainer {
         padding-top: 0px;
     }
@@ -73,4 +88,48 @@
     }
 }
 
+/* ============ NOSOTROS ============*/
 
+    .sectionNos1 {
+    background-color: aliceblue;
+}
+
+    .subtituloContenedor {
+     font-family: font-family: 'Roboto', sans-serif;
+}
+
+.subtitulosTres {
+    font-family: font-family: 'Roboto', sans-serif;
+    
+}
+
+.parrafoNosotros {
+
+    font-family: font-family: 'Roboto', sans-serif;  
+  } 
+
+.imgNuestro {
+    width: 610px; 
+    height: 610px;
+    border-radius: 4px; 
+}
+
+.sectionNos2 {
+    background-image:url("../img/img.nosprueba3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgNosotros {
+    height: 800px;
+    width: 620px;
+}
+
+/* ============ VESION TABLET - MOBILE ============*/
+
+@media (min-width:100px) and (max-width:600px) {
+    .imgNuestro {
+        width: 300px; 
+        height: 300px; 
+    }
+}

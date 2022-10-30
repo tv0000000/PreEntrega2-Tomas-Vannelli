@@ -7,11 +7,11 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ESTILO CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Cof&Li</title>
 </head>
 
@@ -21,18 +21,17 @@
   <header class="encabezado">
       <nav class="navbar navbar-expand-lg bg-light"> 
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="cofLogo" src="img/logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="../index.html"><img class="cofLogo" src="../img/logo.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-        
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item fuentesNav">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item fuentesNav">
-                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item fuentesNav">
                 <a class="nav-link" href="pages/charlas.html">Charlas</a>
@@ -45,29 +44,34 @@
               </li>
             </ul>
           </div>
+        </div>
       </nav>
     </header>
 
     <!-- ==============MAIN============== -->
-  
-  <main class="container-fluid backgroundMain">
-    <div class="row"> 
-          <section class="col-xl-4 col-sm-12">
-              <h1 data-aos="fade-up" class="tituloIndex text-center">Una gran tienda de Café</h1>
-              <p data-aos="fade-up" class="parrafoIndex text-center">Queremos que vivas una gran experiencia con un producto maravilloso como nuestro café</p>
-          </section>
-          
-          <section class="col-xl-8 col-sm-12">
-            <img data-aos="zoom-in" class="imgIndex1" src="img/cafe.jpg" alt="imagen cafe">
-          </section> 
-    </div>
-  </main>
+    
+    <main class="container-fluid">
+        <div class="row">
+            <section class="col-xl-6 col-sm-12 sectionNos1">
+                <h2 class="subtituloContenedor pt-4">Café y buenos momentos</h2>  
+                <h3 class="subtitulosTres">Nosotros</h3>
+                <p class="parrafoNosotros">Desde 2022 seleccionamos y tostamos nuestro propio café. Lo cuidamos desde la selección de cada uno de sus granos, hasta la taza, con respeto por este noble producto, y pasión desde el primer día por lo que hacemos. Por eso nuestro café es ÚNICO.
+                A través de nuestro proceso exclusivo de tostado logramos resaltar las notas y características propias de los diferentes granos. Un aroma pleno, con notas de chocolate, pan tostado, miel y caramelo y un sabor con cuerpo, con un toque de frescura, es lo que hace inconfundible a nuestro café siempre.</p>
+                <h3 data-aos="fade-right" class="subtitulosTres">Misión</h3>
+                <p data-aos="fade-right" class="parrafoNosotros">Creamos momentos, sabores y experiencias para acercar lo mejor del café a nuetros clientes y colaborar con una vida mejor con el primer café de la mañana.</p>
+                <h3 data-aos="fade-right" class="subtitulosTres">Visión</h3>
+                <p data-aos="fade-right" class="parrafoNosotros">Ser, el lugar de encuentro elegido por la gente.</p>
+            </section>
 
+            <section class="col-xl-6 col-sm-12 sectionNos1">
+                <img data-aos="zoom-in" class="imgNuestro" src="../img/img-nosotrosprueba2.jpg" alt="imagen nosotros">
+            </section>
+        </div>
 
-      <!-- ==============FOOTER============ -->
+        <!-- ==============FOOTER============ -->
 
 <footer class="container-fluid">
-  <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <div class="d-flex flex-wrap justify-content-between align-items-centerpy-3 py-3 border-top">
     <div class="col-md-4 d-flex align-items-center">
       <span class="mb-3 mb-md-0 text-muted footerText">&copy; 2022 Cof&Li</span>
     </div>
