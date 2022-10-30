@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* ============ FONT ============*/
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 /* ============ NAV ============*/
@@ -42,15 +35,13 @@
     width: 50vw;
     border-radius: 1rem;
     margin-left: 8rem;
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
 }
 
 .tituloIndex {
     padding-top: 3rem;
     font-size: 3rem;
     font-weight: bold;
-    
 }
 
 .parrafoIndex { 
@@ -78,8 +69,7 @@
     .tituloIndex {
         font-size: 3rem;
         font-weight: bold;
-        text-align: center;
-        
+        text-align: center;   
     }
 
     .imgIndex1 {
@@ -99,12 +89,10 @@
 }
 
 .subtitulosTres {
-    font-family: font-family: 'Roboto', sans-serif;
-    
+    font-family: font-family: 'Roboto', sans-serif;    
 }
 
 .parrafoNosotros {
-
     font-family: font-family: 'Roboto', sans-serif;  
   } 
 
@@ -133,3 +121,57 @@
         height: 300px; 
     }
 }
+
+/* ============ CHARLAS ============*/
+
+.subtituloCharlas {
+    text-align: center;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.multimediaCharlas {
+    width: 620px;
+    border-radius: 10px;
+}
+
+.videoCharlas {
+    width: 581px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.textoVideo {
+    text-align: center;
+    font-size: 25px;
+    animation-name: animationtex;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animationtex {
+    0% {color: black;
+    } 
+    100% {color: red;
+    }
+}
+
+/* ============ VESION MOBILE ============*/
+
+@media (min-width:100px) and (max-width:370px) {
+    .multimediaCharlas {
+        width: 300px; 
+        height: 200px;
+        padding-left: 10px; 
+    }
+}
+
+@media (min-width:100px) and (max-width:370px) {
+    .videoCharlas {
+        width: 320px; 
+        height: 200px;
+        padding-right: 40px;
+        padding-top: -10px; 
+    }
+}
+
