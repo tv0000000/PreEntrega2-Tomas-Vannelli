@@ -50,18 +50,14 @@
 
 /* ============ INDEX - VESION MOBILE ============*/
 
-@media (min-width:100px) and (max-width:365px) {
+@media (min-width:100px) and (max-width:370px) {
     .imgIndex1 {
         width: 60vw;
         border-radius: 10%;
         margin-left: 2rem;
         margin-top: 1em;       
     }   
-}
 
-/* ============ VESION MOBILE ============*/
-
-@media (min-width:100px) and (max-width:365px) {
     .textoContainer {
         padding-top: 0px;
     }
@@ -85,15 +81,15 @@
 }
 
     .subtituloContenedor {
-     font-family: font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
 }
 
-.subtitulosTres {
-    font-family: font-family: 'Roboto', sans-serif;    
+    .subtitulosTres {
+    font-family: 'Roboto', sans-serif;    
 }
 
 .parrafoNosotros {
-    font-family: font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;  
   } 
 
 .imgNuestro {
@@ -158,11 +154,11 @@
 
 /* ============ VESION MOBILE ============*/
 
-@media (min-width:100px) and (max-width:370px) {
+@media (min-width:100px) and (max-width:480px) {
     .multimediaCharlas {
-        width: 300px; 
+        width: 400px; 
         height: 200px;
-        padding-left: 10px; 
+        padding-left: 2px; 
     }
 }
 
@@ -175,3 +171,14 @@
     }
 }
 
+/* ============ GALERIA ============*/
+
+.backgroundCarousel {
+    background: radial-gradient(circle, rgba(200,201,205,1) 0%, rgba(71,131,66,1) 100%);    
+}
+
+.imgCarousel {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
