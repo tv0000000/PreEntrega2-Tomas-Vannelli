@@ -1,3 +1,5 @@
+/* ============ FONT ============*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 /* ============ NAV ============*/
@@ -25,12 +27,6 @@
 
 /* ============ INDEX ============*/
 
-
-/* .backgroundMain {
-    background: radial-gradient(circle, rgba(200,201,205,1) 0%, rgba(71,131,66,1) 100%);    
-} */
-
-
 .imgIndex1 {
     width: 50vw;
     border-radius: 1rem;
@@ -48,13 +44,13 @@
     color: rgb(104, 81, 37);
 }
 
-/* ============ INDEX - VESION MOBILE ============*/
+/* ============ INDEX - VERSION MOBILE ============*/
 
-@media (min-width:100px) and (max-width:370px) {
+@media (min-width:100px) and (max-width:480px) {
     .imgIndex1 {
         width: 60vw;
         border-radius: 10%;
-        margin-left: 2rem;
+        margin-left: 60px;
         margin-top: 1em;       
     }   
 
@@ -82,20 +78,23 @@
 
     .subtituloContenedor {
      font-family: 'Roboto', sans-serif;
+     font-weight: bold;
 }
 
     .subtitulosTres {
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;    
 }
 
-.parrafoNosotros {
+    .parrafoNosotros {
     font-family: 'Roboto', sans-serif;  
   } 
 
 .imgNuestro {
     width: 610px; 
     height: 610px;
-    border-radius: 4px; 
+    border-radius: 4px;
+    margin-left: 7px; 
 }
 
 .sectionNos2 {
@@ -104,19 +103,30 @@
     background-repeat: no-repeat;
 }
 
-.imgNosotros {
-    height: 800px;
-    width: 620px;
-}
+/* ============ VERSION MOBILE ============*/
 
-/* ============ VESION TABLET - MOBILE ============*/
-
-@media (min-width:100px) and (max-width:600px) {
-    .imgNuestro {
-        width: 300px; 
-        height: 300px; 
+@media (min-width:100px) and (max-width:480px) {
+    
+    .subtituloContenedor {
+        text-align: center;
+        padding-bottom: 20px;
     }
+
+    .imgNuestro {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+/* ============ VERSION TABLET ============*/
+
+@media (min-width:481px) and (max-width:1000px) {
+.imgNuestro {
+    height: 300px;
+    width: 300px;
 }
+}
+
 
 /* ============ CHARLAS ============*/
 
@@ -152,19 +162,34 @@
     }
 }
 
-/* ============ VESION MOBILE ============*/
+/* ============ VERSION MOBILE ============*/
 
 @media (min-width:100px) and (max-width:480px) {
     .multimediaCharlas {
-        width: 400px; 
-        height: 200px;
+        width: 250px; 
+        height: 250px;
         padding-left: 2px; 
+    }
+
+    .videoCharlas {
+        width: 320px; 
+        height: 200px;
+        padding-right: 40px;
+        padding-top: -10px; 
     }
 }
 
-@media (min-width:100px) and (max-width:370px) {
+/* ============ VERSION TABLET ============*/
+
+@media (min-width:481px) and (max-width:1000px) {
+    .multimediaCharlas {
+        width: 400px; 
+        height: 250px;
+        padding-left: 2px; 
+    }
+
     .videoCharlas {
-        width: 320px; 
+        width: 400px; 
         height: 200px;
         padding-right: 40px;
         padding-top: -10px; 
@@ -181,4 +206,58 @@
     width: 100%;
     height: 450px;
     object-fit: contain;
+}
+
+/* ============ CONTACTO ============*/
+
+.imgContact {
+    width: 500px;
+    border-radius: 40px;
+    margin-left: 220px;
+}
+
+.backgroundContact {
+    background: radial-gradient(circle, rgba(200,201,205,1) 0%, rgba(71,131,66,1) 100%);
+}
+
+.botonSubmit {
+    width: 100px;
+}
+
+.textArea {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* ============ VERSION MOBILE ============ */
+ 
+@media (min-width:100px) and (max-width:478px) { 
+    .imgContact {
+        width: 100px;
+        border-radius: 30px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    .textArea {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .textInput {
+        width: 300px;
+    }
+}
+
+
+
+/* ============ VERSION TABLET ============*/
+
+@media (min-width:479px) and (max-width:1000px) { 
+    .imgContact {
+        width: 200px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
